@@ -17,7 +17,8 @@ pipeline {
 
         stage('Second Test') {
           steps {
-            echo 'Second Test...'
+            echo 'Second Test...';
+            exit 1
           }
         }
 
